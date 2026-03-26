@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "deploy": "ng build --configuration production --base-href \"/PSE/\" && npx angular-cli-ghpages --dir=dist/PSE/browser"
   },
   "private": true,
   "packageManager": "npm@11.4.1",
