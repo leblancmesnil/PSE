@@ -134,7 +134,7 @@
             <div class="detail-section">
               <h4>Critères de réalisation</h4>
               @if (mesure.definitionOfDone) {
-                <p>{{ mesure.definitionOfDone }}</p>
+                <div class="dod-content" [innerHTML]="mesure.definitionOfDone | markdown"></div>
               } @else {
                 <p class="detail-empty">
                   À définir — participez à la consultation citoyenne : « C'est quoi une mesure réussie pour vous ? »

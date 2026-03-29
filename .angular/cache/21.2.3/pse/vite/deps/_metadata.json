@@ -1,34 +1,43 @@
 {
-  "hash": "cfb41f5f",
-  "configHash": "3fc38dfb",
-  "lockfileHash": "ec5e3d9b",
-  "browserHash": "905e5910",
+  "hash": "e9764bb1",
+  "configHash": "a8815322",
+  "lockfileHash": "af45e21a",
+  "browserHash": "da5f5d98",
   "optimized": {
     "@angular/core": {
       "src": "../../../../../../node_modules/@angular/core/fesm2022/core.mjs",
       "file": "@angular_core.js",
-      "fileHash": "4532b70f",
+      "fileHash": "44b9460e",
       "needsInterop": false
     },
     "@angular/forms": {
       "src": "../../../../../../node_modules/@angular/forms/fesm2022/forms.mjs",
       "file": "@angular_forms.js",
-      "fileHash": "386ea3a1",
+      "fileHash": "55e86353",
       "needsInterop": false
     },
     "@angular/platform-browser": {
       "src": "../../../../../../node_modules/@angular/platform-browser/fesm2022/platform-browser.mjs",
       "file": "@angular_platform-browser.js",
-      "fileHash": "61b9180f",
+      "fileHash": "33cbfe2e",
+      "needsInterop": false
+    },
+    "marked": {
+      "src": "../../../../../../node_modules/marked/lib/marked.esm.js",
+      "file": "marked.js",
+      "fileHash": "e4622a04",
       "needsInterop": false
     }
   },
   "chunks": {
-    "chunk-JOFUWTG6": {
-      "file": "chunk-JOFUWTG6.js"
+    "chunk-GG7E43MM": {
+      "file": "chunk-GG7E43MM.js"
     },
-    "chunk-ZJJ7GLJV": {
-      "file": "chunk-ZJJ7GLJV.js"
+    "chunk-VUCFNNWJ": {
+      "file": "chunk-VUCFNNWJ.js"
+    },
+    "chunk-GOMI4DH3": {
+      "file": "chunk-GOMI4DH3.js"
     }
   }
 }

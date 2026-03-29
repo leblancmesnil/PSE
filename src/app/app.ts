@@ -2,10 +2,11 @@ import { Component, inject } from '@angular/core';
 import { PseService } from './services/pse.service';
 import { STATUT_LABELS, PRIORITE_LABELS, Statut, Priorite } from './models/mesure.model';
 import { FormsModule } from '@angular/forms';
+import { MarkdownPipe } from './pipes/markdown.pipe';
 
 @Component({
   selector: 'app-root',
-  imports: [FormsModule],
+  imports: [FormsModule, MarkdownPipe],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
